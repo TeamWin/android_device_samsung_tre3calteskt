@@ -15,7 +15,7 @@
 #
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/trelteskt/device.mk)
+$(call inherit-product, device/samsung/tre3calteskt/device.mk)
 $(call inherit-product, device/samsung/trelte-common/device-common.mk)
 
 # Inherit from those products. Most specific first
@@ -25,16 +25,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_trelteskt
-PRODUCT_DEVICE := trelteskt
+PRODUCT_NAME := lineage_tre3calteskt
+PRODUCT_DEVICE := tre3calteskt
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-N910S
+PRODUCT_MODEL := SM-N916S
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-BUILD_FINGERPRINT := samsung/trelteskt/trelte:6.0.1/MMB29K/N910SKSU2DSA1:user/release-keys
+BUILD_FINGERPRINT := samsung/tre3calteskt/trelte:6.0.1/MMB29K/N916SKSU2DSA1:user/release-keys
 BOARD_VENDOR := samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=trelteskt \
-	TARGET_DEVICE=trelteskt \
-  	PRIVATE_BUILD_DESC="trelteskt-user 6.0.1 MMB29K N910SKSU2DSA1 release-keys"
+    PRODUCT_NAME=tre3calteskt \
+	TARGET_DEVICE=tre3calteskt \
+  	PRIVATE_BUILD_DESC="tre3calteskt-user 6.0.1 MMB29K N916SKSU2DSA1 release-keys"
