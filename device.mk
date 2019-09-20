@@ -54,4 +54,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2017-08-01
 	
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/treltexx/treltexx-vendor.mk)
+$(call inherit-product, vendor/samsung/tre3calteskt/tre3calteskt-vendor.mk)
