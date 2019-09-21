@@ -14,4 +14,5 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tre3calteskt.mk
+    $(LOCAL_DIR)/lineage_tre3calteskt.mk \
+    $(LOCAL_DIR)/rr_tre3calteskt.mk
