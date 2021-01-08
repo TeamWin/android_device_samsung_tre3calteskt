@@ -14,11 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tre3calteskt.mk \
-    $(LOCAL_DIR)/rr_tre3calteskt.mk
+    $(LOCAL_DIR)/lineage_tre3calteskt.mk
     
 COMMON_LUNCH_CHOICES := \
     lineage_tre3calteskt-user \
     lineage_tre3calteskt-userdebug \
-    lineage_tre3calteskt-eng \
-    rr_tre3calteskt-userdebug
+    lineage_tre3calteskt-eng
