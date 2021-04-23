@@ -31,10 +31,4 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N916S
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-BUILD_FINGERPRINT := samsung/tre3calteskt/tre3calteskt:6.0.1/MMB29K/N916SKSU2DSA1:user/release-keys
 BOARD_VENDOR := samsung
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=tre3calteskt \
-	TARGET_DEVICE=tre3calteskt \
-  	PRIVATE_BUILD_DESC="tre3calteskt-user 6.0.1 MMB29K N916SKSU2DSA1 release-keys"
